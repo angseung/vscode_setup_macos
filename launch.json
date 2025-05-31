@@ -3,10 +3,11 @@
     "configurations": [
         {
             "name": "main",
-            "type": "lldb",
+            "type": "lldb-dap",
             "request": "launch",
             "program": "${workspaceFolder}/Debug/bin/main",
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
+            "args": "[]"
         }
     ]
 }
